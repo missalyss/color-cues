@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: nordica, Geneva, Tahoma, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--pink);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "nordica";
+  src: url(../assets/fonts/NordicaClassicLtExt.otf) format("opentype");
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+p {
+  margin: 0;
+}
