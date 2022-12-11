@@ -1,8 +1,6 @@
-import React, { useState } from "react";
-
 const Card = ({ className, children, ...props }) => {
   return (
-    <div className={`radius-1 p3 ${className}`} {...props}>
+    <div className={`radius-1 p3 ${className ?? ""}`} {...props}>
       {children}
     </div>
   );

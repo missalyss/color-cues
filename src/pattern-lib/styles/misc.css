@@ -45,3 +45,7 @@
 .radius-2 {
   border-radius: 16px;
 }
+
+.border-black {
+  border: var(--black) 2px solid;
+}

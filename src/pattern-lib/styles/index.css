@@ -16,11 +16,13 @@ code {
   src: url(../assets/fonts/NordicaClassicLtExt.otf) format("opentype");
 }
 
-button {
+button,
+a {
   border: none;
   background-color: inherit;
   font-size: inherit;
   font-family: inherit;
+  text-decoration: none;
 }
 
 p {
